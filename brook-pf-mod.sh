@@ -1,15 +1,6 @@
 #!/usr/bin/env bash
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
-
-#=================================================
-#   System Required: CentOS/Debian/Ubuntu
-#   Description: Brook
-#   Version: 1.0.0
-#   Author: Toyo, yulewang(DDNS features)
-#   Blog: https://doub.io/wlzy-jc37/
-#=================================================
-
 sh_ver="1.0.0"
 filepath=$(cd "$(dirname "$0")"; pwd)
 file_1=$(echo -e "${filepath}"|awk -F "$0" '{print $1}')
